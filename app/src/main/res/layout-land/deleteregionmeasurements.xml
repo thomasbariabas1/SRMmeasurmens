@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/dltregion"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="20dp"
+            />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dltregiondimos"
+            android:layout_marginTop="29dp"
+            android:layout_below="@+id/dltregion"
+            android:layout_alignParentStart="true"
+            android:layout_toStartOf="@+id/deleteregion" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dltregionnomos"
+            android:layout_below="@+id/dltregiondimos"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/dltregiondimos" />
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dltregionregion"
+            android:layout_below="@+id/dltregionnomos"
+            android:layout_alignParentStart="true"
+            android:layout_alignEnd="@+id/dltregionnomos" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete Region"
+            android:id="@+id/deleteregion"
+            android:layout_below="@+id/dltregiondimos"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

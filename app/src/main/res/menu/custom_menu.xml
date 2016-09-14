@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/add"
+        android:icon="@drawable/ic_add_black_24dp"
+        android:title="Add measurements"
+        app:showAsAction="never" />
+
+
+
+
+    <item android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Search Measurements"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/editregion"
+        android:icon="@drawable/ic_remove_black_24dp"
+        android:title="Edit region"
+        app:showAsAction="never" />
+    <item android:id="@+id/about"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="About"
+        app:showAsAction="never"/>
+    <item android:id="@+id/connect"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Connect"
+        app:showAsAction="never"/>
+    <item android:id="@+id/logout"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Log Out"
+        app:showAsAction="never"/>
+</menu>

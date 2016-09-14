@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.srmmeasurements"
+>
+
+
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.example.tom.permission.MAPS_RECEIVE" />
+    <permission
+        android:name="com.example.tom.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <android:user-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <android:user-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <android:user-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:name="com.example.tom.srmmeasurmens.Main"
+        android:allowBackup="true"
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/ic_launcher"
+        android:label="SRM Measurements"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+
+         >
+
+        <uses-library android:name="com.google.android.maps" />
+        <activity
+            android:name="com.example.tom.srmmeasurmens.LoginActivity"
+            android:label="Login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.tom.admin.Admin"
+            android:label="Admin " >
+        </activity>
+        <activity
+            android:name="com.example.tom.admin.EditLogFile"
+            android:label="EditLogFile " >
+        </activity>
+        <activity
+            android:name="com.example.tom.srmmeasurmens.About"
+            android:label="About " >
+        </activity>
+        <activity
+            android:name="com.example.tom.engineer.Engineer"
+            android:label="Engineer" >
+        </activity>
+        <activity
+            android:name="com.example.tom.srmmeasurmens.Settings"
+            android:label="Settings" >
+        </activity>
+        <activity
+            android:name="com.example.tom.user.User"
+            android:label="User" >
+        </activity>
+        <activity
+            android:name="com.example.tom.admin.EditUser"
+            android:label="UserEdit" >
+        </activity>
+        <activity
+            android:name="com.example.tom.admin.EditMeasurements"
+            android:label="MeasurementsEdit" >
+        </activity>
+        <activity
+            android:name="com.example.tom.engineer.EditRegionMeasurements"
+            android:label="EditRegionMeasurements" >
+        </activity>
+
+        <activity
+            android:name="com.example.tom.engineer.SearchMeasurements"
+            android:label="SearchMeasurements" >
+        </activity>
+        <activity
+            android:name="com.example.tom.engineer.SpectrumInfo"
+            android:label="SpectrumInfo" >
+        </activity>
+        <activity
+            android:name="com.example.tom.engineer.SafetyInfo"
+            android:label="SafetyInfo" >
+        </activity>
+        <activity
+            android:name="com.example.tom.engineer.AddMeasurements"
+            android:label="AddMeasurements" >
+        </activity>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyB9Ef0Codb9mhQkOYpQ6MT93AsXnBlZ1KE" />
+    </application>
+
+</manifest>

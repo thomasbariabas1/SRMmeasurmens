@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Δήμος:"
+                android:id="@+id/safetydimos"
+                android:layout_weight="0.26"
+                android:layout_column="0" />
+
+            <Spinner
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/safetyspinner11"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Πόλη:"
+                android:id="@+id/safetynomos"
+                android:layout_weight="0.26"
+                android:layout_column="0" />
+
+            <Spinner
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/safetyspinner12"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Περιοχή:"
+                android:id="@+id/safetyperioxi"
+                android:layout_weight="0.26"
+                android:layout_column="0" />
+
+            <Spinner
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/safetyspinner13"
+                android:layout_column="1"
+                android:spinnerMode="dropdown"
+                android:layout_span="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ημερομηνία:"
+                android:id="@+id/safetyimerominia"
+                android:layout_weight="0.26"
+                android:layout_column="0" />
+
+            <Spinner
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/safetyspinner14"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ώρα:"
+                android:id="@+id/safetywra"
+                android:layout_weight="0.26"
+                android:layout_column="0" />
+            <Spinner
+                android:layout_width="154dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/safetyspinner15"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Ειδος Μετρησης:"
+                android:id="@+id/safetyeidos"
+                android:layout_weight="0.26"
+                android:layout_column="0" />
+            <Spinner
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/safetyspinner16"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Επιπλέον πληροφορίες:"
+                android:id="@+id/safetyplirofories"
+                android:layout_weight="0.26"
+                android:layout_column="0" />
+            <Spinner
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/safetyspinner17"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=" "
+                android:layout_column="0"
+                android:layout_span="10" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=" "
+                android:layout_column="0"
+                android:layout_span="10" />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Ειδικά Στοιχεία Μέτρησης"
+                android:layout_column="0"
+                android:layout_span="10"
+                android:textColor="#F10808"
+                android:textSize="20dp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=" "
+                android:layout_column="0"
+                android:layout_span="10" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Service Table Name:"
+                android:id="@+id/safetytextView21"
+                android:layout_weight="0.26"
+                android:layout_column="0" />
+
+            <Spinner
+                android:layout_width="203dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/safetyspinner19"
+                android:layout_column="1" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text=" "
+                android:layout_column="0"
+                android:layout_weight="0.26"
+                android:layout_span="10" />
+        </TableRow>  <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=" "
+            android:layout_column="0"
+            android:layout_weight="0.26"
+            android:layout_span="10" />
+    </TableRow>  <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text=" "
+            android:id="@+id/textView20"
+            android:layout_column="0"
+            android:layout_weight="0.26"
+            android:layout_span="10" />
+    </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:id="@+id/searchsafety"
+                android:layout_weight="0.26"
+                android:layout_column="1" />
+        </TableRow>
+    </TableLayout>
+
+
+</ScrollView>
